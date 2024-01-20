@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/pictures/Browser.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="styles/global.css" />
+    <link rel="stylesheet" type="text/css" href="styles/header.css" />
+    <link rel="stylesheet" type="text/css" href="styles/home.css" />
+    <title>MyStore</title>
+  </head>
+  <body>
+    <nav id="headerContainer">
+      <!-- Header/Navbar diimport di sini dengan loadHeader.js -->
+    </nav>
+
+    <img class="banner" src="assets/pictures/banner.png" alt="banner" />
+
+    <section class="filter-cards">
+      <div class="filter-card" onclick="filteredHome()">
+        <img src="assets/pictures/cpu.png" alt="Filter 1" />
+        <p>CPU</p>
+      </div>
+      <div class="filter-card" onclick="filteredHome()">
+        <img src="assets/pictures/gpu.png" alt="Filter 2" />
+        <p>GPU</p>
+      </div>
+      <div class="filter-card" onclick="filteredHome()">
+        <img src="assets/pictures/mobo.png" alt="Filter 3" />
+        <p>MotherBoard</p>
+      </div>
+      <div class="filter-card" onclick="filteredHome()">
+        <img src="assets/pictures/storage.png" alt="Filter 4" />
+        <p>Storage</p>
+      </div>
+      <div class="filter-card" onclick="filteredHome()">
+        <img src="assets/pictures/ram.png" alt="Filter 5" />
+        <p>RAM</p>
+      </div>
+    </section>
+
+    <h2 class="title">Most Popular Products</h2>
+
+    <section class="products">
+      <!-- Produk akan diloop di sini dengan products.js -->
+    </section>
+
+    <script src="src/loadHeader.js"></script>
+    <script src="src/redirect.js"></script>
+    <script src="src/products.js"></script>
+  </body>
+</html>

@@ -1,0 +1,92 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #00acee;
+}
+
+.container {
+  background-color: #ffffff;
+
+  text-align: center;
+  min-width: 600px;
+  min-height: 500px;
+  border: 0px solid #ccc;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.logText1 {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.logText2 {
+  margin-top: 5px;
+  margin-bottom: 30px;
+  color: rgb(151, 151, 151);
+}
+
+.content {
+  min-width: 400px;
+  display: inline-block;
+}
+
+.form {
+  text-align: left;
+}
+
+.email,
+.pass {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.input-container {
+  position: relative;
+}
+
+.inpEmail,
+.inpPass {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 10px 40px 5px 40px;
+}
+
+.icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-80%);
+  color: grey;
+}
+
+.btnSubmit {
+  color: #ffffff;
+  font-size: 16px;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: 0px solid #00acee;
+  border-radius: 10px;
+  background-color: #00abeec0;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #0099cc;
+  }
+}
