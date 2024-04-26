@@ -4,7 +4,7 @@ function login() {
   var passwordInput = document.getElementById("inpPass").value;
 
   if (emailInput === "tes" && passwordInput === "123") {
-    window.location.href = "home.html";
+    window.location.href = "index.html";
   } else {
     alert("Your Email or Password might be wrong, please try again");
   }
