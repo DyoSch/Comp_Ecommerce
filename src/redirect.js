@@ -27,5 +27,5 @@ function redirectToWishList() {
 
 //Fungsi Filter produk yang ada di halaman Home, sementara berfungsi sebagai reload tampilan
 function filteredHome() {
-  window.location.href = "home.html";
+  window.location.href = "index.html";
 }
